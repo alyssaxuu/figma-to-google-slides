@@ -1,5 +1,6 @@
 # Figma to Google Slides
 ![Demo](https://media.giphy.com/media/1zKgvNDdxfElnYOL1p/giphy.gif)
+<br>
 Convert [Figma](https://figma.com) frames into a Google Slides presentation, as showcased [here](https://twitter.com/tcodinat/status/1086934646959558656) 📽️
 
 The order of the slides is determined by the frame hierarchy in Figma, from bottom to top. That means that the first slide is the one placed on the bottom of the "Layers" panel, and the last one is the one on the top.
