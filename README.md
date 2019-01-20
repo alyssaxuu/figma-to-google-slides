@@ -8,7 +8,7 @@ Made by 18 y/o 👩 [Toni Codina](https://tcodina.com)
 
 # Installation
 
- 1. Import the [Google API PHP Library](https://github.com/googleapis/google-api-php-client)! ✨
+ 1. Import the [Google API PHP Library](https://github.com/googleapis/google-api-php-client)! ✨ If you import it without composer, make sure that the path on the first line matches where the library is hosted in your server. Otherwise, you can replace that line from the code.
  2. Create a service API key in the [Google API Console](https://console.cloud.google.com/apis/). You can follow the same steps described in the second section [of my guide on using the Google Sheets API](https://medium.com/hackerpreneur-magazine/how-to-use-google-sheets-as-a-cms-or-a-database-f9d8e736fdce) 📖 . Import it to your server and replace the path in the code.
  3. Go to your Google Slides presentation, click on "Share" and enter the previously generated email address (your service API email address) into the "People" field with edit permissions 🔑
  4. Replace the Google Slides presentation ID and Figma file ID from the code 🔗
