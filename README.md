@@ -5,7 +5,7 @@ Convert [Figma](https://figma.com) frames into a Google Slides presentation, as 
 
 The order of the slides is determined by the frame hierarchy in Figma, from bottom to top. That means that the first slide is the one placed on the bottom of the "Layers" panel, and the last one is the one on the top.
 
-Made by 18 y/o 👩 [Toni Codina](https://tcodina.com)
+Made by 18 y/o 👩 [Alyssa](https://tcodina.com)
 
 
 # Installation
@@ -17,4 +17,4 @@ Made by 18 y/o 👩 [Toni Codina](https://tcodina.com)
  5. Find your personal Figma access token by going to the [API documentation](https://www.figma.com/developers/docs) 🤖, scrolling down to the "Access Tokens" section, and clicking on "Get personal access token" on the right. Replace it in the code.
  6. Run the script & enjoy! Every time you run the script you will update the slides with the different frames from Figma 🍭
 #
- Feel free to reach out to me through email at discuss@tcodina.com or [on Twitter](https://twitter.com/tcodinat) if you have any questions or feedback! Hope you find this useful 💜
+ Feel free to reach out to me through email at discuss@tcodina.com or [on Twitter](https://twitter.com/alyssaxuu) if you have any questions or feedback! Hope you find this useful 💜
