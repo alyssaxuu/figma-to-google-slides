@@ -1,4 +1,5 @@
 var mykey = "";
+var apikey = "google_api_key";
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if (request.type == "getUrls") {
@@ -126,7 +127,7 @@ function googleAPI(request, sender, sendResponse, file, figmafile) {
 				  'mode': 'cors',
 				  'contentType': 'json'
 			};
-			fetch('https://slides.googleapis.com/v1/presentations/'+file+'/?key=AIzaSyDQ1HfCfxBCyYt9QuyhKBtYZjIN4FIGiQs&access_token='+token, init).then((response) => response.json()).then(function(data) {
+			fetch('https://slides.googleapis.com/v1/presentations/'+file+'/?key='+apikey+'&access_token='+token, init).then((response) => response.json()).then(function(data) {
 				  var slidesjson = data["slides"];
 				  var objectId = 303030;
 				  var slides = [];
@@ -160,7 +161,7 @@ function googleAPI(request, sender, sendResponse, file, figmafile) {
 					  'contentType': 'json'
 				};
 				fetch(
-				'https://slides.googleapis.com/v1/presentations/'+file+':batchUpdate/?key=AIzaSyDQ1HfCfxBCyYt9QuyhKBtYZjIN4FIGiQs&access_token='+token,
+				'https://slides.googleapis.com/v1/presentations/'+file+':batchUpdate/?key='+apikey+'&access_token='+token,
 				init).then((response) => response.json()).then(function(data) {
 					if (data.replies) {
 						resp({type:"success"});
