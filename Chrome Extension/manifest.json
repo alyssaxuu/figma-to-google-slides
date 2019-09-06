@@ -1,6 +1,6 @@
   {
     "name": "Figma to Google Slides",
-	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjq5m9xtvvbVI88+HBxomXoR61d+hsuCr/jvLpOlmNkxBKhP3vCWgmo+YNge8qS1A+MaY0RdqtlYo/C3gTlujjKplVrmYHe+hB/UHE2URlqwJgLy57b03KJ3HjD8SLeK0+3+FV4MII22EUp/9gN+oULVwGYVgWEEkxD5ojOZ84JLbBiyQzphUl6KTlLAdtZdh2luId6EIk0mSNgPELAEP7eSjwKA1dLhDYnS8LvT6KVkbeOwFntfWyKxwkRkD4Ltx4razwKMx+aA8EUbuQfx5FSwAq1Lydvi3Mi7H0BgxrG5Gmfimxlkn6c3vTnVo0UFZECqQ/6ezjVgnrnHkUjWAIwIDAQAB",
+	"key": "chrome_extension_key",
     "version": "10.3",
     "description": "Turn Figma frames into a Google Slides presentation",
 	"permissions": ["activeTab","declarativeContent","storage"],
