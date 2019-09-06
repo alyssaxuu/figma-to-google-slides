@@ -16,5 +16,13 @@ Made by [Alyssa X](https://alyssax.com)
  4. Replace the Google Slides presentation ID and Figma file ID from the code 🔗
  5. Find your personal Figma access token by going to the [API documentation](https://www.figma.com/developers/docs) 🤖, scrolling down to the "Access Tokens" section, and clicking on "Get personal access token" on the right. Replace it in the code.
  6. Run the script & enjoy! Every time you run the script you will update the slides with the different frames from Figma 🍭
+
+# Installation (for the Chrome Extension)
+
+1. Create a Chrome extension with the files in the Chrome Extension folder (you can follow [this guide](https://support.google.com/chrome/a/answer/2714278?hl=en)) 📖
+2. Generate a OAuth 2.0 client ID in the [Google API Console](https://console.cloud.google.com/apis/). Select "Chrome App", and insert your App ID (which is generated when you create the extension).
+3. In the manifest.json, replace "google_client_id" with your previously generated OAuth 2.0 client ID.
+4. Generate an API key, leave it as unrestricted, and replace "google_api_key" in the background.js with the generated API key 🔑
+5. Install the extension in your browser and enjoy! 
 #
  Feel free to reach out to me through email at hi@alyssax.com or [on Twitter](https://twitter.com/alyssaxuu) if you have any questions or feedback! Hope you find this useful 💜
