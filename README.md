@@ -1,3 +1,4 @@
+![Figma Api Demo Logo](./logo.svg)
 # Figma to Google Slides
 ![Demo](https://media.giphy.com/media/ZcRFEQw8RjOkDu8QiA/giphy.gif)
 <br>
