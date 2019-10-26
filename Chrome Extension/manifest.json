@@ -1,0 +1,33 @@
+  {
+    "name": "Figma to Google Slides",
+	"key": "chrome_extension_key",
+    "version": "10.3",
+    "description": "Turn Figma frames into a Google Slides presentation",
+	"permissions": ["activeTab","declarativeContent","storage"],
+	  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+	   "content_scripts": [
+   {
+	 "matches": ["https://*.figma.com/*"],
+     "js": ["jquery.min.js","popup.js"]
+   }
+],
+	  "background": {
+		  "scripts": [
+			  "background.js"
+		  ],
+      "persistent": false
+	  },
+	  "icons" : {
+		  "12": "assets/logo_SMALL.png",
+		  "48": "assets/logo_MEDIUM.png",
+		  "128": "assets/logo_BIG.png"
+	  },
+	"oauth2": {
+		"client_id": "google_client_id",
+		"scopes":["https://www.googleapis.com/auth/drive","https://www.googleapis.com/auth/contacts.readonly"]
+	},
+	"permissions": [
+		"identity", "declarativeContent", "storage"
+	],
+    "manifest_version": 2
+  }
