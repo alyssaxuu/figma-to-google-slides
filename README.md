@@ -3,7 +3,7 @@
 <br>
 Convert [Figma](https://figma.com) frames into a Google Slides presentation, as showcased [here](https://twitter.com/alyssaxuu/status/1086934646959558656) 📽️
 
-The order of the slides is determined by the frame hierarchy in Figma, from top to bottom in the [Chrome Extension](https://chrome.google.com/webstore/detail/figma-to-google-slides/plebfmkclgnmenaemkgcnconhiodhakl), but reversed in the Minified Version.
+The order of the slides is determined by the frame hierarchy in Figma, from top to bottom in the Chrome Extension, but reversed in the Minified Version.
 
 Made by [Alyssa X](https://alyssax.com)
 
